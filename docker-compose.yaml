@@ -1,0 +1,9 @@
+version: "3"
+services:
+  wordle:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: clh7090/wordle
+    ports:
+      - "3000:3000"

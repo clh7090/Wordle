@@ -1,0 +1,27 @@
+.board-letter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid grey;
+  font-size: 1em;
+  margin: 2px;
+  width: 75px;
+}
+
+@media (max-width: 600px) {
+  .board-letter {
+    width: 50px;
+  }
+}
+
+#correct-letter-pos {
+  background-color: #528d4e;
+}
+
+#incorrect-letter-pos {
+  background-color: #b49f39;
+}
+
+#no-letter-pos {
+  background-color: #3a393c;
+}

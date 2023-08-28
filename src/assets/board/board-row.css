@@ -1,0 +1,4 @@
+.board-row {
+  display: flex;
+  height: 75px;
+}

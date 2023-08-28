@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid 1px grey;
+}
+
+.header > span {
+  color: white;
+  font-size: 2.5em;
+}
